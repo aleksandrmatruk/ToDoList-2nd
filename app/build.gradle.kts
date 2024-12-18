@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.matalex.a2nd"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.matalex.a2nd"
