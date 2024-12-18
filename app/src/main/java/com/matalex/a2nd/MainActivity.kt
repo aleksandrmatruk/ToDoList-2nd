@@ -26,6 +26,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         showNotes()
+        buttonAddNote.setOnClickListener {
+            val intent = AddNoteActivity.newIntent(this)
+            startActivity(intent)
+        }
     }
 
     private fun initViews() {
